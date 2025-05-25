@@ -1,75 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BTech in Computer Science Engineering - Sri Sri University</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header id="header">
-        <div class="container">
-            <div class="header-content">
-                <a href="#" class="logo">
-                    <div class="logo-img">
-                        <a href="#">
-                            <img src="https://srisriuniversity.edu.in/wp-content/uploads/2020/11/Untitled-design-min-1024x357.png" alt="icon">
-                        </a>
-                    </div>
-                </a>
-                <!-- Hamburger Button -->
-                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <!-- Navigation -->
-                <nav id="navMenu">
-                    <!-- Close Button (for mobile) -->
-                    <button class="mobile-menu-btn menu-close" id="menuClose" aria-label="Close Menu">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <ul>
-                        <li><a href="#overview">Overview</a></li>
-                        <li><a href="#curriculum">Curriculum</a></li>
-                        <li><a href="#faculty">Faculty</a></li>
-                        <li><a href="#facilities">Facilities</a></li>
-                        <li><a href="#career">Career</a></li>
-                        <li><a href="#faq">FAQs</a></li>
-                        <li><a href="#cta-section" class="cta-btn">Apply Now</a></li> <!-- Use specific ID -->
-                    </ul>
-                </nav>
+      <div class="container-nav">
+        <div class="header-content">
+          <!-- Flex Container -->
+          <!-- Item 1: Logo (will go to the left) -->
+          <a href="#" class="logo">
+            <div class="logo-img">
+              <!-- Corrected: Removed nested <a> tag -->
+              <img
+                src="https://srisriuniversity.edu.in/wp-content/uploads/2020/11/Untitled-design-min-1024x357.png"
+                alt="Sri Sri University Logo"
+              />
             </div>
+          </a>
+
+          <!-- Item 2: Hamburger Button (hidden on desktop) -->
+          <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-label="Open Menu"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Item 3: Navigation (will go to the right on desktop) -->
+          <nav id="navMenu">
+            <button
+              class="mobile-menu-btn menu-close"
+              id="menuClose"
+              aria-label="Close Menu"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+            <ul>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#curriculum">Curriculum</a></li>
+              <li><a href="#faculty">Faculty</a></li>
+              <li><a href="#facilities">Facilities</a></li>
+              <li><a href="#career">Career</a></li>
+              <li><a href="#faq">FAQs</a></li>
+              <li><a href="#cta-section" class="cta-btn">Apply Now</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text fade-in">
-                    <h2>Bachelor of Technology in <span>Computer Science Engineering</span></h2>
-                    <h3>In Collaboration With</h3>
-                    <img src="https://pathfinderstraining.com/wp-content/uploads/2022/10/HCLTech-logo.png" alt="hcl logo" class="hcl-logo">
-                    <p>
-                        Embark on a transformative journey into the world of technology with our comprehensive
-                        BTech in Computer Science Engineering program. Develop cutting-edge skills and prepare
-                        for a successful career in the ever-evolving tech industry.
-                    </p>
-                    <a href="#curriculum" class="cta-btn">Explore Program</a> <!-- Link to relevant section -->
-                </div>
-                <div class="hero-img fade-in delay-2">
-                    <!-- Replace with actual relevant image -->
-                    <img src="https://images.unsplash.com/photo-1632835298280-ad3d64834ab8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Computer Science Engineering Students engaged in learning">
-                </div>
-            </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text fade-in">
+            <h2>
+              Bachelor of Technology in
+              <span>Computer Science Engineering</span>
+            </h2>
+            <h3>In Collaboration With</h3>
+            <img
+              src="https://pathfinderstraining.com/wp-content/uploads/2022/10/HCLTech-logo.png"
+              alt="hcl logo"
+              class="hcl-logo"
+            />
+            <p>
+              Embark on a transformative journey into the world of technology
+              with our comprehensive BTech in Computer Science Engineering
+              program. Develop cutting-edge skills and prepare for a successful
+              career in the ever-evolving tech industry.
+            </p>
+            <a href="#curriculum" class="cta-btn">Explore Program</a>
+            <!-- Link to relevant section -->
+          </div>
+          <div class="hero-img fade-in delay-2">
+            <!-- Replace with actual relevant image -->
+            <img
+              src="https://images.unsplash.com/photo-1632835298280-ad3d64834ab8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Computer Science Engineering Students engaged in learning"
+            />
+          </div>
         </div>
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
+      </div>
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
     </section>
 
-<!-- Course Overview Section -->
+    <!-- Course Overview Section -->
     <section class="course-overview section" id="overview">
       <!-- Added 'section' class -->
       <div class="container">
@@ -144,1147 +175,1542 @@
     </section>
 
     <!-- Curriculum Section -->
-  <section class="curriculum section" id="curriculum"> <!-- Added 'section' class -->
-        <div class="container">
-            <div class="section-title scale-in">
-                <h3>Curriculum Structure</h3>
-            </div>
-            <div class="semester-tabs fade-in">
-                <button class="semester-tab active" data-semester="sem1">1st Semester</button>
-                <button class="semester-tab" data-semester="sem2">2nd Semester</button>
-                <button class="semester-tab" data-semester="sem3">3rd Semester</button>
-                <button class="semester-tab" data-semester="sem4">4th Semester</button>
-                <button class="semester-tab" data-semester="sem5">5th Semester</button>
-                <button class="semester-tab" data-semester="sem6">6th Semester</button>
-                <button class="semester-tab" data-semester="sem7">7th Semester</button>
-                <button class="semester-tab" data-semester="sem8">8th Semester</button>
-            </div>
-
-            <!-- Semester 1 Content -->
-            <div class="semester-content active" id="sem1">
-                <div class="course-grid">
-                    <!-- Add animation classes to cards -->
-                    <div class="course-card fade-in">
-                        <div class="course-card-header">
-                            <h4>Principles of Programming and Data Structures</h4>
-                            <div class="course-code">AIML/01/101</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i> <!-- Changed icon -->
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Introduction to programming concepts, problem-solving techniques, algorithms, and basic
-                                data structures
-                                using C++ language. Focus on logic building.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card fade-in delay-1">
-                        <div class="course-card-header">
-                            <h4>Engineering Mathematics I</h4>
-                            <div class="course-code">AIML/01/103</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Differential calculus, integral calculus, sequences and series, complex numbers, and
-                                their
-                                applications in engineering problems.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card fade-in delay-2">
-                        <div class="course-card-header">
-                            <h4>Electrical and Electronics Around Us</h4>
-                            <div class="course-code">AIML/01/107</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>2 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Number systems, Boolean algebra, logic gates, combinational circuits (adders,
-                                multiplexers), and sequential circuits (flip-flops, counters).
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card fade-in delay-3">
-                        <div class="course-card-header">
-                            <h4>Engineering Physics</h4>
-                            <div class="course-code">AIML/01/105</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>2 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Basics of quantum mechanics, semiconductor physics, lasers, fiber optics, and their
-                                relevance to modern computing systems.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card fade-in delay-4">
-                        <div class="course-card-header">
-                            <h4>Introduction to AI</h4>
-                            <div class="course-code">AIML/01/109</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>2 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Covers fundamentals of machine learning, neural networks, and data-driven
-                                decision-making, with applications in automation, natural language processing, and
-                                intelligent systems relevant to modern computing.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card fade-in delay-5">
-                        <div class="course-card-header">
-                            <h4>Communication English</h4>
-                            <div class="course-code">AIML/01/111</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>2 Credits</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on developing speaking, listening, reading, and writing skills in English, with
-                                emphasis on effective communication in academic, professional, and everyday contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Semester 2 Content -->
-            <div class="semester-content" id="sem2">
-                <div class="course-grid">
-                    <div class="course-card"> <!-- Animation will trigger when tab is clicked -->
-                        <div class="course-card-header">
-                            <h4>Python Programming</h4>
-                            <div class="course-code">AIML/02/201</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on developing programming, problem-solving, and computational thinking skills
-                                using Python, with emphasis on effective application in academic, professional, and
-                                real-world contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Enginneering Mathematics II</h4>
-                            <div class="course-code">AIML/02/203</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Linear algebra (vector spaces, eigenvalues), multivariable calculus, Fourier series, and
-                                probability theory relevant to engineering.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Operating Systems</h4>
-                            <div class="course-code">AIML/02/205</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the principles and design of operating systems, with emphasis on process
-                                management, memory management, file systems, and system-level programming in academic
-                                and professional contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Introduction to Machine Learning</h4>
-                            <div class="course-code">AIML/02/207</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on foundational machine learning concepts and algorithms, with emphasis on data
-                                analysis, model building, and practical application in academic and real-world
-                                problem-solving contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Communication English II</h4>
-                            <div class="course-code">AIML/02/205</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>2 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on refining speaking, listening, reading, and writing skills in English, with
-                                emphasis on clarity, critical thinking, and professional communication in academic and
-                                workplace settings.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Enviromental Studies</h4>
-                            <div class="course-code">AIML/02/205</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>1 Credit</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the interrelationship between humans and the environment, with emphasis on
-                                sustainability, ecological awareness, and responsible citizenship in local and global
-                                contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Semester 3 Content (Placeholder) -->
-            <div class="semester-content" id="sem3">
-                <div class="course-grid">
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Mathematics 3</h4>
-                            <div class="course-code">BTCS/BS/004</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on advanced mathematical concepts such as differential equations, complex
-                                analysis, and transforms, with emphasis on their application in engineering and
-                                computational problem-solving.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Computer Organization and Architecture</h4>
-                            <div class="course-code">BTCS/PC/002</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the structure and functioning of computer systems, with emphasis on digital logic, processor architecture, memory hierarchy, and instruction execution in academic and technical contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Object-Oriented Programming with Java</h4>
-                            <div class="course-code">BTCS/PC/003</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on object-oriented programming principles using Java, with emphasis on designing modular, reusable, and efficient code for real-world software development.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Database Management Systems</h4>
-                            <div class="course-code">BTCS/PC/004</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the design, implementation, and management of databases, with emphasis on data modeling, SQL, normalization, and transaction processing in academic and enterprise applications.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Applied Statistics</h4>
-                            <div class="course-code">BTCS/AMDS/SP3</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on statistical methods and data analysis techniques, with emphasis on interpretation, inference, and real-world application in science, engineering, and research contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Data Warehouse and Mining</h4>
-                            <div class="course-code">BTCS/AMDS/SP4</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on techniques for storing, retrieving, and analyzing large datasets, with emphasis on data warehousing architecture, mining algorithms, and practical applications in decision-making.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Add more placeholder courses -->
-                </div>
-            </div>
-
-            <!-- Semester 4 Content -->
-            <div class="semester-content" id="sem4">
-                <div class="course-grid">
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Computer Networks</h4>
-                            <div class="course-code">BTCS/PC/005</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the principles and protocols of data communication and networking, with emphasis on network architecture, routing, and security in modern communication systems.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Design and Analysis of Algorithms</h4>
-                            <div class="course-code">BTCS/PC/006</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on algorithm design techniques and complexity analysis, with emphasis on solving computational problems efficiently using methods such as divide-and-conquer, dynamic programming, and greedy algorithms.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Discrete Mathematics</h4>
-                            <div class="course-code">BTCS/PC/007</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on mathematical structures and logic used in computer science, with emphasis on set theory, combinatorics, graph theory, and formal reasoning in computational contexts.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Digital Signal Processing</h4>
-                            <div class="course-code">BTCS/PC/008</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the analysis and manipulation of signals using digital techniques, with emphasis on filtering, Fourier analysis, and real-time processing in engineering applications.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Minor Projects</h4>
-                            <div class="course-code">BTCS/PR/001</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the application of theoretical knowledge to practical problems through guided projects, with emphasis on innovation, teamwork, and project development lifecycle.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Introduction to AI and Machine Learning</h4>
-                            <div class="course-code">BTCS/AIML/SP5</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the fundamentals of artificial intelligence and machine learning, with emphasis on basic algorithms, model training, and applications in intelligent systems.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Architecture and Management of Large Datasets</h4>
-                            <div class="course-code">BTCS/AMDS/SP6</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the design, storage, and processing of big data systems, with emphasis on data architecture, distributed storage, and tools for scalable data management in real-world applications.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Semester 5 Content -->
-            <div class="semester-content" id="sem5">
-                <div class="course-grid">
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Internet and Web Technologies</h4>
-                            <div class="course-code">BTCS/PC/009</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on web development fundamentals and internet technologies, with emphasis on HTML, CSS, JavaScript, client-server architecture, and dynamic web applications.                                
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Data and Internet Security</h4>
-                            <div class="course-code">BTCS/PC/010</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on principles and practices of securing data and communication over the internet, with emphasis on cryptography, network security protocols, authentication, and protection against cyber threats in distributed environments.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Software Engineering</h4>
-                            <div class="course-code">BTCS/PC/011</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on systematic approaches to software development, with emphasis on software life cycle models, requirements analysis, design, testing, and maintenance for quality software solutions.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Business Process Reengineering</h4>
-                            <div class="course-code">BTCS/PC/012T</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on analyzing and redesigning business processes for performance improvement, with emphasis on workflow optimization, change management, and strategic alignment.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Predictive Analytics</h4>
-                            <div class="course-code">BTCS/AMDS/SP7</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on statistical and machine learning techniques for forecasting future outcomes, with emphasis on data modeling, trend analysis, and decision-making based on historical data.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Internet of Things and Automation</h4>
-                            <div class="course-code">BTCS/AMDS/SP8</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on IoT concepts, devices, and communication protocols, with emphasis on integrating automation systems for smart environments and real-time data-driven applications.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-            <!-- Semester 6 Content -->
-            <div class="semester-content" id="sem6">
-                <div class="course-grid">
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Theory of Computation</h4>
-                            <div class="course-code">BTCS/PC/013</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on formal models of computation and the limits of algorithmic processes, with emphasis on automata theory, grammars, Turing machines, and computational complexity.                                
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Human-Computer Interface</h4>
-                            <div class="course-code">BTCS/PC/014</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the design and evaluation of user interfaces, with emphasis on usability, accessibility, interaction design, and user-centered development of digital systems.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Business Analysis</h4>
-                            <div class="course-code">BTCS/DS/SP13</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on identifying business needs and proposing technology-based solutions, with emphasis on requirements gathering, stakeholder analysis, and process improvement strategies.                                
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Employability Planning and Preparation</h4>
-                            <div class="course-code">BTCS/HS/007P</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on developing essential skills for career readiness, with emphasis on resume building, interview techniques, professional communication, and workplace ethics to enhance employability in diverse professional environments.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Major Project</h4>
-                            <div class="course-code">BTCS/PR/002</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>6 Credits</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the execution of a comprehensive, team-based project that integrates knowledge from various domains, with emphasis on innovation, problem-solving, and real-world application.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Machine Learning</h4>
-                            <div class="course-code">BTCS/AIML/SP9</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on practical machine learning skills using IBM tools and platforms, with emphasis on supervised and unsupervised learning, model deployment, and industry-oriented applications.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>High Performance Computing</h4>
-                            <div class="course-code">BTCS/AMDS/SP10</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the use of parallel and distributed computing systems to solve complex problems, with emphasis on performance optimization, cluster computing, and real-world scientific applications.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-            <!-- Semester 7 Content -->
-            <div class="semester-content" id="sem7">
-                <div class="course-grid">
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Compiler Design</h4>
-                            <div class="course-code">BTCS/PC/015</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the principles and techniques of compiler construction, with emphasis on lexical analysis, syntax parsing, semantic analysis, code generation, and optimization for efficient program execution.                         
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Deep Learning</h4>
-                            <div class="course-code">BTCS/AIML/SP011</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on advanced machine learning techniques using neural networks, with emphasis on architectures such as CNNs, RNNs, and transformers for applications in vision, language, and data modeling.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Pattern Recognition</h4>
-                            <div class="course-code">BTCS/AIML/SP012</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on statistical and machine learning techniques for identifying patterns in data, with emphasis on classification, clustering, and feature extraction in real-world scenarios.                 
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>  
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Computational Linguistics and NLP</h4>
-                            <div class="course-code">BTCS/AIML/SP013</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the intersection of language and computation, with emphasis on syntax, semantics, and machine learning techniques for processing and understanding human language.                       
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Application of ML in Industries</h4>
-                            <div class="course-code">BTCS/AIML/SP013</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on the practical implementation of machine learning solutions across various industries, with emphasis on real-world case studies, deployment challenges, and business impact.                                
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Research Project in Specialization</h4>
-                            <div class="course-code">BTCS/PR/003</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>12 Credits</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on independent, in-depth research within a chosen area of specialization, with emphasis on problem formulation, methodology, experimentation, and technical reporting.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <!-- Semester 8 Content -->
-            <div class="semester-content" id="sem8">
-                <div class="course-grid">
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Advanced Networking</h4>
-                            <div class="course-code">BTCS/PE/01</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on in-depth concepts and technologies in computer networking, with emphasis on advanced routing, switching, network security, and emerging protocols for robust and scalable network design.                         
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Presales Foundation Program</h4>
-                            <div class="course-code">BTCS/PE/02</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on foundational skills for the presales role, with emphasis on client engagement, product demonstration, requirement analysis, and effective communication to support the sales lifecycle.
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>                    
-                    <div class="course-card">
-                        <div class="course-card-header">
-                            <h4>Cloud Security</h4>
-                            <div class="course-code">BTCS/PECC/03</div>
-                        </div>
-                        <div class="course-card-body">
-                            <div class="course-details">
-                                <i class="fas fa-tags"></i>
-                                <div>3 Credits + 1 Lab</div>
-                            </div>
-                            <p class="course-desc">
-                                Focuses on securing cloud computing environments, with emphasis on data protection, identity and access management, threat detection, and compliance in cloud platforms and services.                                                 
-                            </p>
-                            <a href="#" class="view-syllabus">View Syllabus <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-
+    <section class="curriculum section" id="curriculum">
+      <!-- Added 'section' class -->
+      <div class="container">
+        <div class="section-title scale-in">
+          <h3>Curriculum Structure</h3>
         </div>
+        <div class="semester-tabs fade-in">
+          <button class="semester-tab active" data-semester="sem1">
+            1st Semester
+          </button>
+          <button class="semester-tab" data-semester="sem2">
+            2nd Semester
+          </button>
+          <button class="semester-tab" data-semester="sem3">
+            3rd Semester
+          </button>
+          <button class="semester-tab" data-semester="sem4">
+            4th Semester
+          </button>
+          <button class="semester-tab" data-semester="sem5">
+            5th Semester
+          </button>
+          <button class="semester-tab" data-semester="sem6">
+            6th Semester
+          </button>
+          <button class="semester-tab" data-semester="sem7">
+            7th Semester
+          </button>
+          <button class="semester-tab" data-semester="sem8">
+            8th Semester
+          </button>
+        </div>
+
+        <!-- Semester 1 Content -->
+        <div class="semester-content active" id="sem1">
+          <div class="course-grid">
+            <!-- Add animation classes to cards -->
+            <div class="course-card fade-in">
+              <div class="course-card-header">
+                <h4>Principles of Programming and Data Structures</h4>
+                <div class="course-code">AIML/01/101</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <!-- Changed icon -->
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Introduction to programming concepts, problem-solving
+                  techniques, algorithms, and basic data structures using C++
+                  language. Focus on logic building.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card fade-in delay-1">
+              <div class="course-card-header">
+                <h4>Engineering Mathematics I</h4>
+                <div class="course-code">AIML/01/103</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Differential calculus, integral calculus, sequences and
+                  series, complex numbers, and their applications in engineering
+                  problems.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card fade-in delay-2">
+              <div class="course-card-header">
+                <h4>Electrical and Electronics Around Us</h4>
+                <div class="course-code">AIML/01/107</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>2 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Number systems, Boolean algebra, logic gates, combinational
+                  circuits (adders, multiplexers), and sequential circuits
+                  (flip-flops, counters).
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card fade-in delay-3">
+              <div class="course-card-header">
+                <h4>Engineering Physics</h4>
+                <div class="course-code">AIML/01/105</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>2 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Basics of quantum mechanics, semiconductor physics, lasers,
+                  fiber optics, and their relevance to modern computing systems.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card fade-in delay-4">
+              <div class="course-card-header">
+                <h4>Introduction to AI</h4>
+                <div class="course-code">AIML/01/109</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>2 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Covers fundamentals of machine learning, neural networks, and
+                  data-driven decision-making, with applications in automation,
+                  natural language processing, and intelligent systems relevant
+                  to modern computing.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card fade-in delay-5">
+              <div class="course-card-header">
+                <h4>Communication English</h4>
+                <div class="course-code">AIML/01/111</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>2 Credits</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on developing speaking, listening, reading, and
+                  writing skills in English, with emphasis on effective
+                  communication in academic, professional, and everyday
+                  contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Semester 2 Content -->
+        <div class="semester-content" id="sem2">
+          <div class="course-grid">
+            <div class="course-card">
+              <!-- Animation will trigger when tab is clicked -->
+              <div class="course-card-header">
+                <h4>Python Programming</h4>
+                <div class="course-code">AIML/02/201</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on developing programming, problem-solving, and
+                  computational thinking skills using Python, with emphasis on
+                  effective application in academic, professional, and
+                  real-world contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Enginneering Mathematics II</h4>
+                <div class="course-code">AIML/02/203</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Linear algebra (vector spaces, eigenvalues), multivariable
+                  calculus, Fourier series, and probability theory relevant to
+                  engineering.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Operating Systems</h4>
+                <div class="course-code">AIML/02/205</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the principles and design of operating systems,
+                  with emphasis on process management, memory management, file
+                  systems, and system-level programming in academic and
+                  professional contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Introduction to Machine Learning</h4>
+                <div class="course-code">AIML/02/207</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on foundational machine learning concepts and
+                  algorithms, with emphasis on data analysis, model building,
+                  and practical application in academic and real-world
+                  problem-solving contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Communication English II</h4>
+                <div class="course-code">AIML/02/205</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>2 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on refining speaking, listening, reading, and writing
+                  skills in English, with emphasis on clarity, critical
+                  thinking, and professional communication in academic and
+                  workplace settings.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Enviromental Studies</h4>
+                <div class="course-code">AIML/02/205</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>1 Credit</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the interrelationship between humans and the
+                  environment, with emphasis on sustainability, ecological
+                  awareness, and responsible citizenship in local and global
+                  contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Semester 3 Content (Placeholder) -->
+        <div class="semester-content" id="sem3">
+          <div class="course-grid">
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Mathematics 3</h4>
+                <div class="course-code">BTCS/BS/004</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on advanced mathematical concepts such as differential
+                  equations, complex analysis, and transforms, with emphasis on
+                  their application in engineering and computational
+                  problem-solving.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Computer Organization and Architecture</h4>
+                <div class="course-code">BTCS/PC/002</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the structure and functioning of computer systems,
+                  with emphasis on digital logic, processor architecture, memory
+                  hierarchy, and instruction execution in academic and technical
+                  contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Object-Oriented Programming with Java</h4>
+                <div class="course-code">BTCS/PC/003</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on object-oriented programming principles using Java,
+                  with emphasis on designing modular, reusable, and efficient
+                  code for real-world software development.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Database Management Systems</h4>
+                <div class="course-code">BTCS/PC/004</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the design, implementation, and management of
+                  databases, with emphasis on data modeling, SQL, normalization,
+                  and transaction processing in academic and enterprise
+                  applications.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Applied Statistics</h4>
+                <div class="course-code">BTCS/AMDS/SP3</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on statistical methods and data analysis techniques,
+                  with emphasis on interpretation, inference, and real-world
+                  application in science, engineering, and research contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Data Warehouse and Mining</h4>
+                <div class="course-code">BTCS/AMDS/SP4</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on techniques for storing, retrieving, and analyzing
+                  large datasets, with emphasis on data warehousing
+                  architecture, mining algorithms, and practical applications in
+                  decision-making.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Add more placeholder courses -->
+          </div>
+        </div>
+
+        <!-- Semester 4 Content -->
+        <div class="semester-content" id="sem4">
+          <div class="course-grid">
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Computer Networks</h4>
+                <div class="course-code">BTCS/PC/005</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the principles and protocols of data communication
+                  and networking, with emphasis on network architecture,
+                  routing, and security in modern communication systems.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Design and Analysis of Algorithms</h4>
+                <div class="course-code">BTCS/PC/006</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on algorithm design techniques and complexity
+                  analysis, with emphasis on solving computational problems
+                  efficiently using methods such as divide-and-conquer, dynamic
+                  programming, and greedy algorithms.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Discrete Mathematics</h4>
+                <div class="course-code">BTCS/PC/007</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on mathematical structures and logic used in computer
+                  science, with emphasis on set theory, combinatorics, graph
+                  theory, and formal reasoning in computational contexts.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Digital Signal Processing</h4>
+                <div class="course-code">BTCS/PC/008</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the analysis and manipulation of signals using
+                  digital techniques, with emphasis on filtering, Fourier
+                  analysis, and real-time processing in engineering
+                  applications.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Minor Projects</h4>
+                <div class="course-code">BTCS/PR/001</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the application of theoretical knowledge to
+                  practical problems through guided projects, with emphasis on
+                  innovation, teamwork, and project development lifecycle.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Introduction to AI and Machine Learning</h4>
+                <div class="course-code">BTCS/AIML/SP5</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the fundamentals of artificial intelligence and
+                  machine learning, with emphasis on basic algorithms, model
+                  training, and applications in intelligent systems.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Architecture and Management of Large Datasets</h4>
+                <div class="course-code">BTCS/AMDS/SP6</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the design, storage, and processing of big data
+                  systems, with emphasis on data architecture, distributed
+                  storage, and tools for scalable data management in real-world
+                  applications.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Semester 5 Content -->
+        <div class="semester-content" id="sem5">
+          <div class="course-grid">
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Internet and Web Technologies</h4>
+                <div class="course-code">BTCS/PC/009</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on web development fundamentals and internet
+                  technologies, with emphasis on HTML, CSS, JavaScript,
+                  client-server architecture, and dynamic web applications.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Data and Internet Security</h4>
+                <div class="course-code">BTCS/PC/010</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on principles and practices of securing data and
+                  communication over the internet, with emphasis on
+                  cryptography, network security protocols, authentication, and
+                  protection against cyber threats in distributed environments.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Software Engineering</h4>
+                <div class="course-code">BTCS/PC/011</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on systematic approaches to software development, with
+                  emphasis on software life cycle models, requirements analysis,
+                  design, testing, and maintenance for quality software
+                  solutions.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Business Process Reengineering</h4>
+                <div class="course-code">BTCS/PC/012T</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on analyzing and redesigning business processes for
+                  performance improvement, with emphasis on workflow
+                  optimization, change management, and strategic alignment.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Predictive Analytics</h4>
+                <div class="course-code">BTCS/AMDS/SP7</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on statistical and machine learning techniques for
+                  forecasting future outcomes, with emphasis on data modeling,
+                  trend analysis, and decision-making based on historical data.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Internet of Things and Automation</h4>
+                <div class="course-code">BTCS/AMDS/SP8</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on IoT concepts, devices, and communication protocols,
+                  with emphasis on integrating automation systems for smart
+                  environments and real-time data-driven applications.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Semester 6 Content -->
+        <div class="semester-content" id="sem6">
+          <div class="course-grid">
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Theory of Computation</h4>
+                <div class="course-code">BTCS/PC/013</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on formal models of computation and the limits of
+                  algorithmic processes, with emphasis on automata theory,
+                  grammars, Turing machines, and computational complexity.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Human-Computer Interface</h4>
+                <div class="course-code">BTCS/PC/014</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the design and evaluation of user interfaces, with
+                  emphasis on usability, accessibility, interaction design, and
+                  user-centered development of digital systems.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Business Analysis</h4>
+                <div class="course-code">BTCS/DS/SP13</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on identifying business needs and proposing
+                  technology-based solutions, with emphasis on requirements
+                  gathering, stakeholder analysis, and process improvement
+                  strategies.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Employability Planning and Preparation</h4>
+                <div class="course-code">BTCS/HS/007P</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on developing essential skills for career readiness,
+                  with emphasis on resume building, interview techniques,
+                  professional communication, and workplace ethics to enhance
+                  employability in diverse professional environments.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Major Project</h4>
+                <div class="course-code">BTCS/PR/002</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>6 Credits</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the execution of a comprehensive, team-based
+                  project that integrates knowledge from various domains, with
+                  emphasis on innovation, problem-solving, and real-world
+                  application.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Machine Learning</h4>
+                <div class="course-code">BTCS/AIML/SP9</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on practical machine learning skills using IBM tools
+                  and platforms, with emphasis on supervised and unsupervised
+                  learning, model deployment, and industry-oriented
+                  applications.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>High Performance Computing</h4>
+                <div class="course-code">BTCS/AMDS/SP10</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the use of parallel and distributed computing
+                  systems to solve complex problems, with emphasis on
+                  performance optimization, cluster computing, and real-world
+                  scientific applications.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Semester 7 Content -->
+        <div class="semester-content" id="sem7">
+          <div class="course-grid">
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Compiler Design</h4>
+                <div class="course-code">BTCS/PC/015</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the principles and techniques of compiler
+                  construction, with emphasis on lexical analysis, syntax
+                  parsing, semantic analysis, code generation, and optimization
+                  for efficient program execution.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Deep Learning</h4>
+                <div class="course-code">BTCS/AIML/SP011</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on advanced machine learning techniques using neural
+                  networks, with emphasis on architectures such as CNNs, RNNs,
+                  and transformers for applications in vision, language, and
+                  data modeling.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Pattern Recognition</h4>
+                <div class="course-code">BTCS/AIML/SP012</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on statistical and machine learning techniques for
+                  identifying patterns in data, with emphasis on classification,
+                  clustering, and feature extraction in real-world scenarios.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Computational Linguistics and NLP</h4>
+                <div class="course-code">BTCS/AIML/SP013</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the intersection of language and computation, with
+                  emphasis on syntax, semantics, and machine learning techniques
+                  for processing and understanding human language.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Application of ML in Industries</h4>
+                <div class="course-code">BTCS/AIML/SP013</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on the practical implementation of machine learning
+                  solutions across various industries, with emphasis on
+                  real-world case studies, deployment challenges, and business
+                  impact.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Research Project in Specialization</h4>
+                <div class="course-code">BTCS/PR/003</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>12 Credits</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on independent, in-depth research within a chosen area
+                  of specialization, with emphasis on problem formulation,
+                  methodology, experimentation, and technical reporting.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Semester 8 Content -->
+        <div class="semester-content" id="sem8">
+          <div class="course-grid">
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Advanced Networking</h4>
+                <div class="course-code">BTCS/PE/01</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on in-depth concepts and technologies in computer
+                  networking, with emphasis on advanced routing, switching,
+                  network security, and emerging protocols for robust and
+                  scalable network design.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Presales Foundation Program</h4>
+                <div class="course-code">BTCS/PE/02</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on foundational skills for the presales role, with
+                  emphasis on client engagement, product demonstration,
+                  requirement analysis, and effective communication to support
+                  the sales lifecycle.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="course-card-header">
+                <h4>Cloud Security</h4>
+                <div class="course-code">BTCS/PECC/03</div>
+              </div>
+              <div class="course-card-body">
+                <div class="course-details">
+                  <i class="fas fa-tags"></i>
+                  <div>3 Credits + 1 Lab</div>
+                </div>
+                <p class="course-desc">
+                  Focuses on securing cloud computing environments, with
+                  emphasis on data protection, identity and access management,
+                  threat detection, and compliance in cloud platforms and
+                  services.
+                </p>
+                <a href="#" class="view-syllabus"
+                  >View Syllabus <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-
     <!-- Facilities Section -->
-    <section class="facilities section" id="facilities"> <!-- Added 'section' class -->
-        <div class="container">
-            <div class="section-title scale-in">
-                <h3>World-Class Facilities</h3>
-            </div>
-            <div class="facilities-grid">
-                 <!-- Add animation classes to cards -->
-                <div class="facility-card fade-in">
-                    <div class="facility-img-wrapper">
-                        <!-- Replace with actual image -->
-                        <img src="https://images.pexels.com/photos/3747481/pexels-photo-3747481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Modern computing lab with rows of computers" class="facility-img">
-                    </div>
-                    <div class="facility-content">
-                        <h4 class="facility-title"><i class="fas fa-laptop-code"></i>Advanced Computing Lab</h4>
-                        <p class="facility-desc">
-                            State-of-the-art labs equipped with high-performance workstations, licensed software suites, and diverse development environments for practical learning.
-                        </p>
-                    </div>
-                </div>
-                <div class="facility-card fade-in delay-1">
-                     <div class="facility-img-wrapper">
-                        <!-- Replace with actual image -->
-                        <img src="https://images.pexels.com/photos/18471480/pexels-photo-18471480/free-photo-of-a-classroom-with-rows-of-computers-and-monitors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="AI lab showing servers and robotic arms" class="facility-img">
-                     </div>
-                    <div class="facility-content">
-                        <h4 class="facility-title"><i class="fas fa-robot"></i>AI & Machine Learning Lab</h4>
-                        <p class="facility-desc">
-                            Dedicated laboratory for AI/ML research featuring GPU clusters, VR headsets, and specialized frameworks like TensorFlow and PyTorch, along with support for advanced deep learning and natural language processing projects.
-                        </p>
-                    </div>
-                </div>
-                <div class="facility-card fade-in delay-2">
-                     <div class="facility-img-wrapper">
-                        <!-- Replace with actual image -->
-                        <img src="https://images.pexels.com/photos/3747511/pexels-photo-3747511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Students accessing resources on computers in a digital library" class="facility-img">
-                     </div>
-                    <div class="facility-content">
-                        <h4 class="facility-title"><i class="fas fa-book-reader"></i>Extensive Digital Library</h4>
-                        <p class="facility-desc">
-                           24/7 access to a vast collection of e-books, international journals (IEEE, ACM), research databases, and online learning platforms like Coursera.
-                        </p>
-                    </div>
-                </div>
-                 <div class="facility-card fade-in delay-3"> <!-- Added another facility -->
-                     <div class="facility-img-wrapper">
-                        <!-- Replace with actual image -->
-                        <img src="https://images.pexels.com/photos/6914353/pexels-photo-6914353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Collaborative workspace with whiteboards and beanbags" class="facility-img">
-                     </div>
-                    <div class="facility-content">
-                        <h4 class="facility-title"><i class="fas fa-lightbulb"></i>Innovation & Incubation Hub</h4>
-                        <p class="facility-desc">
-                           A collaborative space fostering student entrepreneurship with mentorship programs, maker tools, and support for startup ventures.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <section class="facilities section" id="facilities">
+      <!-- Added 'section' class -->
+      <div class="container">
+        <div class="section-title scale-in">
+          <h3>World-Class Facilities</h3>
         </div>
+        <div class="facilities-grid">
+          <!-- Add animation classes to cards -->
+          <div class="facility-card fade-in">
+            <div class="facility-img-wrapper">
+              <!-- Replace with actual image -->
+              <img
+                src="https://images.pexels.com/photos/3747481/pexels-photo-3747481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Modern computing lab with rows of computers"
+                class="facility-img"
+              />
+            </div>
+            <div class="facility-content">
+              <h4 class="facility-title">
+                <i class="fas fa-laptop-code"></i>Advanced Computing Lab
+              </h4>
+              <p class="facility-desc">
+                State-of-the-art labs equipped with high-performance
+                workstations, licensed software suites, and diverse development
+                environments for practical learning.
+              </p>
+            </div>
+          </div>
+          <div class="facility-card fade-in delay-1">
+            <div class="facility-img-wrapper">
+              <!-- Replace with actual image -->
+              <img
+                src="https://images.pexels.com/photos/18471480/pexels-photo-18471480/free-photo-of-a-classroom-with-rows-of-computers-and-monitors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="AI lab showing servers and robotic arms"
+                class="facility-img"
+              />
+            </div>
+            <div class="facility-content">
+              <h4 class="facility-title">
+                <i class="fas fa-robot"></i>AI & Machine Learning Lab
+              </h4>
+              <p class="facility-desc">
+                Dedicated laboratory for AI/ML research featuring GPU clusters,
+                VR headsets, and specialized frameworks like TensorFlow and
+                PyTorch, along with support for advanced deep learning and
+                natural language processing projects.
+              </p>
+            </div>
+          </div>
+          <div class="facility-card fade-in delay-2">
+            <div class="facility-img-wrapper">
+              <!-- Replace with actual image -->
+              <img
+                src="https://images.pexels.com/photos/3747511/pexels-photo-3747511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Students accessing resources on computers in a digital library"
+                class="facility-img"
+              />
+            </div>
+            <div class="facility-content">
+              <h4 class="facility-title">
+                <i class="fas fa-book-reader"></i>Extensive Digital Library
+              </h4>
+              <p class="facility-desc">
+                24/7 access to a vast collection of e-books, international
+                journals (IEEE, ACM), research databases, and online learning
+                platforms like Coursera.
+              </p>
+            </div>
+          </div>
+          <div class="facility-card fade-in delay-3">
+            <!-- Added another facility -->
+            <div class="facility-img-wrapper">
+              <!-- Replace with actual image -->
+              <img
+                src="https://images.pexels.com/photos/6914353/pexels-photo-6914353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Collaborative workspace with whiteboards and beanbags"
+                class="facility-img"
+              />
+            </div>
+            <div class="facility-content">
+              <h4 class="facility-title">
+                <i class="fas fa-lightbulb"></i>Innovation & Incubation Hub
+              </h4>
+              <p class="facility-desc">
+                A collaborative space fostering student entrepreneurship with
+                mentorship programs, maker tools, and support for startup
+                ventures.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Career Section -->
-    <section class="career section" id="career"> <!-- Added 'section' class -->
-        <div class="container">
-            <div class="section-title scale-in">
-                <h3>Launch Your Tech Career</h3>
-            </div>
-            <div class="career-content">
-                <div class="career-text slide-in-left">
-                     <p>
-                        A BTech in Computer Science Engineering from Sri Sri University opens doors to a vast array of exciting and high-demand career paths in the global technology industry. Our graduates are highly sought after for roles such as:
-                    </p>
-                    <ul>
-                        <li>Software Development Engineer (SDE)</li>
-                        <li>AI / Machine Learning Engineer</li>
-                        <li>Data Scientist / Data Analyst</li>
-                        <li>Full Stack Web Developer</li>
-                        <li>Cloud Solutions Architect (AWS, Azure, GCP)</li>
-                        <li>Cybersecurity Analyst / Engineer</li>
-                        <li>DevOps Engineer</li>
-                        <li>Systems Architect</li>
-                        <li>Game Developer</li>
-                        <li>Blockchain Developer</li>
-                    </ul>
-                    <p>
-                        With an exceptional placement rate exceeding 95%, our dedicated Career Services team provides comprehensive support, including resume workshops, mock interviews, and strong industry connections, ensuring our students land rewarding positions at top companies worldwide.
-                    </p>
-                </div>
-                <div class="career-chart slide-in-right"> <!-- Changed class name -->
-                    <h4>Top Recruiting Partners</h4>
-                    <div class="company-logos">
-                        <!-- Replace with actual company logos -->
-                        <div class="company-logo scale-in delay-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/250px-Google_Favicon_2025.svg.png" alt="Google Logo"></div>
-                        <div class="company-logo scale-in delay-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8u8BZcgcIxcfgSJsas_HDf2pfYTBlmo2q3g&s" alt="Microsoft Logo"></div>
-                        <div class="company-logo scale-in delay-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZe2_cwIfo0yLvg5c9kvfNH7QhekWrjSuSA&s" alt="Amazon Logo"></div>
-                        <div class="company-logo scale-in delay-4"><img src="https://i0.wp.com/siliconvalleyjournals.com/wp-content/uploads/2023/02/meta_PNG12.png?fit=4000%2C4000&ssl=1" alt="Meta Logo"></div>
-                        <div class="company-logo scale-in delay-5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95Uf8X2dasipPNB8U0XzY1G9v9FuxniCfWg&s" alt="Infosys Logo"></div>
-                        <div class="company-logo scale-in delay-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLC2F8yYFFhCTFw51p7XrPq53vb4ageMyq2g&s" alt="TCS Logo"></div>
-                         <div class="company-logo scale-in delay-2"><img src="https://images.seeklogo.com/logo-png/27/2/intel-logo-png_seeklogo-270869.png" alt="Intel Logo"></div>
-                         <div class="company-logo scale-in delay-3"><img src="https://brandlogos.net/wp-content/uploads/2020/11/accenture-logo-512x512.png" alt="Accenture Logo"></div>
-                    </div>
-                </div>
-            </div>
+    <section class="career section" id="career">
+      <!-- Added 'section' class -->
+      <div class="container">
+        <div class="section-title scale-in">
+          <h3>Launch Your Tech Career</h3>
         </div>
+        <div class="career-content">
+          <div class="career-text slide-in-left">
+            <p>
+              A BTech in Computer Science Engineering from Sri Sri University
+              opens doors to a vast array of exciting and high-demand career
+              paths in the global technology industry. Our graduates are highly
+              sought after for roles such as:
+            </p>
+            <ul>
+              <li>Software Development Engineer (SDE)</li>
+              <li>AI / Machine Learning Engineer</li>
+              <li>Data Scientist / Data Analyst</li>
+              <li>Full Stack Web Developer</li>
+              <li>Cloud Solutions Architect (AWS, Azure, GCP)</li>
+              <li>Cybersecurity Analyst / Engineer</li>
+              <li>DevOps Engineer</li>
+              <li>Systems Architect</li>
+              <li>Game Developer</li>
+              <li>Blockchain Developer</li>
+            </ul>
+            <p>
+              With an exceptional placement rate exceeding 95%, our dedicated
+              Career Services team provides comprehensive support, including
+              resume workshops, mock interviews, and strong industry
+              connections, ensuring our students land rewarding positions at top
+              companies worldwide.
+            </p>
+          </div>
+          <div class="career-chart slide-in-right">
+            <!-- Changed class name -->
+            <h4>Top Recruiting Partners</h4>
+            <div class="company-logos">
+              <!-- Replace with actual company logos -->
+              <div class="company-logo scale-in delay-1">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/250px-Google_Favicon_2025.svg.png"
+                  alt="Google Logo"
+                />
+              </div>
+              <div class="company-logo scale-in delay-2">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8u8BZcgcIxcfgSJsas_HDf2pfYTBlmo2q3g&s"
+                  alt="Microsoft Logo"
+                />
+              </div>
+              <div class="company-logo scale-in delay-3">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZe2_cwIfo0yLvg5c9kvfNH7QhekWrjSuSA&s"
+                  alt="Amazon Logo"
+                />
+              </div>
+              <div class="company-logo scale-in delay-4">
+                <img
+                  src="https://i0.wp.com/siliconvalleyjournals.com/wp-content/uploads/2023/02/meta_PNG12.png?fit=4000%2C4000&ssl=1"
+                  alt="Meta Logo"
+                />
+              </div>
+              <div class="company-logo scale-in delay-5">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95Uf8X2dasipPNB8U0XzY1G9v9FuxniCfWg&s"
+                  alt="Infosys Logo"
+                />
+              </div>
+              <div class="company-logo scale-in delay-1">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLC2F8yYFFhCTFw51p7XrPq53vb4ageMyq2g&s"
+                  alt="TCS Logo"
+                />
+              </div>
+              <div class="company-logo scale-in delay-2">
+                <img
+                  src="https://images.seeklogo.com/logo-png/27/2/intel-logo-png_seeklogo-270869.png"
+                  alt="Intel Logo"
+                />
+              </div>
+              <div class="company-logo scale-in delay-3">
+                <img
+                  src="https://brandlogos.net/wp-content/uploads/2020/11/accenture-logo-512x512.png"
+                  alt="Accenture Logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials section" id="testimonials"> <!-- Added 'section' class -->
-        <div class="container">
-            <div class="section-title scale-in">
-                <h3>Hear From Our Alumni</h3>
-            </div>
-            <div class="testimonial-slider fade-in">
-                <!-- Slide 1 -->
-                <div class="testimonial-slide active">
-                    <!-- Replace with actual image -->
-                    <img src="https://plus.unsplash.com/premium_photo-1689632031083-518b012767a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photograph of Rahul Sharma" class="testimonial-img">
-                    <p class="testimonial-text">
-                        Sri Sri University's BTech program was rigorous yet rewarding. The perfect mix of theory and hands-on projects prepared me exceptionally well. The faculty's guidance and industry connections were invaluable in securing my dream job at Google.
-                    </p>
-                    <h4 class="testimonial-name">Rahul Sharma</h4>
-                    <div class="testimonial-position">Software Engineer, Google (Class of 2023)</div>
-                </div>
-                <!-- Slide 2 -->
-                <div class="testimonial-slide">
-                     <!-- Replace with actual image -->
-                    <img src="https://plus.unsplash.com/premium_photo-1690395794791-e85944b25c0f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photograph of Priya Patel" class="testimonial-img">
-                    <p class="testimonial-text">
-                       I'm incredibly grateful for the comprehensive curriculum covering everything from fundamentals to cutting-edge AI. The project-based learning and mandatory internship gave me the practical experience needed to excel as a Data Scientist at Microsoft.
-                    </p>
-                    <h4 class="testimonial-name">Priya Patel</h4>
-                    <div class="testimonial-position">Data Scientist, Microsoft (Class of 2022)</div>
-                </div>
-                <!-- Slide 3 -->
-                <div class="testimonial-slide">
-                     <!-- Replace with actual image -->
-                    <img src="https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photograph of Alex Johnson" class="testimonial-img">
-                    <p class="testimonial-text">
-                        The supportive and innovative environment at Sri Sri University inspired me to start my own company. The mentorship from professors and resources from the Incubation Hub were absolutely crucial in launching TechNova successfully.
-                    </p>
-                    <h4 class="testimonial-name">Alex Johnson</h4>
-                    <div class="testimonial-position">Founder & CEO, TechNova Solutions (Class of 2021)</div>
-                </div>
-                <!-- Slider Navigation -->
-                <div class="slider-arrows">
-                    <button class="slider-arrow prev-slide" aria-label="Previous Testimonial">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button class="slider-arrow next-slide" aria-label="Next Testimonial">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-                <div class="slider-controls">
-                    <!-- Dots will be dynamically controlled by JS if many slides, or kept static for few -->
-                    <button class="slider-dot active" data-slide="0" aria-label="Go to Testimonial 1"></button>
-                    <button class="slider-dot" data-slide="1" aria-label="Go to Testimonial 2"></button>
-                    <button class="slider-dot" data-slide="2" aria-label="Go to Testimonial 3"></button>
-                </div>
-            </div>
+    <section class="testimonials section" id="testimonials">
+      <!-- Added 'section' class -->
+      <div class="container">
+        <div class="section-title scale-in">
+          <h3>Hear From Our Alumni</h3>
         </div>
+        <div class="testimonial-slider fade-in">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide active">
+            <!-- Replace with actual image -->
+            <img
+              src="https://plus.unsplash.com/premium_photo-1689632031083-518b012767a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Photograph of Rahul Sharma"
+              class="testimonial-img"
+            />
+            <p class="testimonial-text">
+              Sri Sri University's BTech program was rigorous yet rewarding. The
+              perfect mix of theory and hands-on projects prepared me
+              exceptionally well. The faculty's guidance and industry
+              connections were invaluable in securing my dream job at Google.
+            </p>
+            <h4 class="testimonial-name">Rahul Sharma</h4>
+            <div class="testimonial-position">
+              Software Engineer, Google (Class of 2023)
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <!-- Replace with actual image -->
+            <img
+              src="https://plus.unsplash.com/premium_photo-1690395794791-e85944b25c0f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Photograph of Priya Patel"
+              class="testimonial-img"
+            />
+            <p class="testimonial-text">
+              I'm incredibly grateful for the comprehensive curriculum covering
+              everything from fundamentals to cutting-edge AI. The project-based
+              learning and mandatory internship gave me the practical experience
+              needed to excel as a Data Scientist at Microsoft.
+            </p>
+            <h4 class="testimonial-name">Priya Patel</h4>
+            <div class="testimonial-position">
+              Data Scientist, Microsoft (Class of 2022)
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <!-- Replace with actual image -->
+            <img
+              src="https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Photograph of Alex Johnson"
+              class="testimonial-img"
+            />
+            <p class="testimonial-text">
+              The supportive and innovative environment at Sri Sri University
+              inspired me to start my own company. The mentorship from
+              professors and resources from the Incubation Hub were absolutely
+              crucial in launching TechNova successfully.
+            </p>
+            <h4 class="testimonial-name">Alex Johnson</h4>
+            <div class="testimonial-position">
+              Founder & CEO, TechNova Solutions (Class of 2021)
+            </div>
+          </div>
+          <!-- Slider Navigation -->
+          <div class="slider-arrows">
+            <button
+              class="slider-arrow prev-slide"
+              aria-label="Previous Testimonial"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button
+              class="slider-arrow next-slide"
+              aria-label="Next Testimonial"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="slider-controls">
+            <!-- Dots will be dynamically controlled by JS if many slides, or kept static for few -->
+            <button
+              class="slider-dot active"
+              data-slide="0"
+              aria-label="Go to Testimonial 1"
+            ></button>
+            <button
+              class="slider-dot"
+              data-slide="1"
+              aria-label="Go to Testimonial 2"
+            ></button>
+            <button
+              class="slider-dot"
+              data-slide="2"
+              aria-label="Go to Testimonial 3"
+            ></button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq section" id="faq"> <!-- Added 'section' class -->
-        <div class="container">
-            <div class="section-title scale-in">
-                <h3>Frequently Asked Questions</h3>
-            </div>
-            <div class="faq-list">
-                <!-- Add animation classes to items -->
-                <div class="faq-item fade-in"> <!-- Start with active removed, JS can add it -->
-                    <div class="faq-question" role="button" aria-expanded="false"> <!-- ARIA roles -->
-                        <h4>What are the admission requirements for the BTech program?</h4>
-                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                    </div>
-                    <div class="faq-answer" role="region">
-                        <p>
-                            Admission requires successful completion of 10+2 (or equivalent) with Physics, Chemistry, and
-                            Mathematics, securing a minimum aggregate of 70% (may vary). Candidates must qualify through the Sri Sri University Entrance Examination (SSUCET) or possess valid scores in national exams like JEE Main/Advanced. Please refer to the official admissions brochure for detailed criteria.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item fade-in delay-1">
-                    <div class="faq-question" role="button" aria-expanded="false">
-                        <h4>Are there scholarship opportunities available?</h4>
-                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                    </div>
-                    <div class="faq-answer" role="region">
-                        <p>
-                            Yes, Sri Sri University offers a range of scholarships. These include merit-based scholarships for top performers in entrance exams/academics (up to 100% tuition waiver), need-based financial aid programs, and special scholarships for promoting diversity (e.g., women in tech, specific regions). Visit our scholarship portal for details and application procedures.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item fade-in delay-2">
-                    <div class="faq-question" role="button" aria-expanded="false">
-                        <h4>What internship opportunities are available?</h4>
-                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                    </div>
-                    <div class="faq-answer" role="region">
-                        <p>
-                            A mandatory industry internship (typically 6 months) is integrated into the curriculum, usually during the 8th semester. Also during Summer Vacation we provide 2-Month Internship Opportunities too. Our Career Services office actively collaborates with over 200+ companies (including MNCs and startups) to facilitate these internships. Students receive support in finding opportunities aligned with their interests and career goals.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-item fade-in delay-3">
-                    <div class="faq-question" role="button" aria-expanded="false">
-                        <h4>Can I pursue higher studies (Masters/PhD) after this program?</h4>
-                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                    </div>
-                    <div class="faq-answer" role="region">
-                        <p>
-                            Absolutely. Our BTech CSE program provides a robust theoretical and practical foundation, making graduates highly competitive for postgraduate studies globally. Many alumni have successfully pursued MS and PhD degrees at top-tier universities in the US, Europe, and Asia. Faculty actively mentor students interested in research and higher education pathways.
-                        </p>
-                    </div>
-                </div>
-                 <div class="faq-item fade-in delay-4"> <!-- Added another FAQ -->
-                    <div class="faq-question" role="button" aria-expanded="false">
-                        <h4>What is the student-faculty ratio?</h4>
-                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                    </div>
-                    <div class="faq-answer" role="region">
-                        <p>
-                            We maintain a healthy student-faculty ratio, typically around 15:1 for core CSE courses. This ensures personalized attention, effective mentoring, and ample opportunities for students to interact with professors during lectures, labs, and project work.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <section class="faq section" id="faq">
+      <!-- Added 'section' class -->
+      <div class="container">
+        <div class="section-title scale-in">
+          <h3>Frequently Asked Questions</h3>
         </div>
+        <div class="faq-list">
+          <!-- Add animation classes to items -->
+          <div class="faq-item fade-in">
+            <!-- Start with active removed, JS can add it -->
+            <div class="faq-question" role="button" aria-expanded="false">
+              <!-- ARIA roles -->
+              <h4>
+                What are the admission requirements for the BTech program?
+              </h4>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <div class="faq-answer" role="region">
+              <p>
+                Admission requires successful completion of 10+2 (or equivalent)
+                with Physics, Chemistry, and Mathematics, securing a minimum
+                aggregate of 70% (may vary). Candidates must qualify through the
+                Sri Sri University Entrance Examination (SSUCET) or possess
+                valid scores in national exams like JEE Main/Advanced. Please
+                refer to the official admissions brochure for detailed criteria.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item fade-in delay-1">
+            <div class="faq-question" role="button" aria-expanded="false">
+              <h4>Are there scholarship opportunities available?</h4>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <div class="faq-answer" role="region">
+              <p>
+                Yes, Sri Sri University offers a range of scholarships. These
+                include merit-based scholarships for top performers in entrance
+                exams/academics (up to 100% tuition waiver), need-based
+                financial aid programs, and special scholarships for promoting
+                diversity (e.g., women in tech, specific regions). Visit our
+                scholarship portal for details and application procedures.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item fade-in delay-2">
+            <div class="faq-question" role="button" aria-expanded="false">
+              <h4>What internship opportunities are available?</h4>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <div class="faq-answer" role="region">
+              <p>
+                A mandatory industry internship (typically 6 months) is
+                integrated into the curriculum, usually during the 8th semester.
+                Also during Summer Vacation we provide 2-Month Internship
+                Opportunities too. Our Career Services office actively
+                collaborates with over 200+ companies (including MNCs and
+                startups) to facilitate these internships. Students receive
+                support in finding opportunities aligned with their interests
+                and career goals.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item fade-in delay-3">
+            <div class="faq-question" role="button" aria-expanded="false">
+              <h4>
+                Can I pursue higher studies (Masters/PhD) after this program?
+              </h4>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <div class="faq-answer" role="region">
+              <p>
+                Absolutely. Our BTech CSE program provides a robust theoretical
+                and practical foundation, making graduates highly competitive
+                for postgraduate studies globally. Many alumni have successfully
+                pursued MS and PhD degrees at top-tier universities in the US,
+                Europe, and Asia. Faculty actively mentor students interested in
+                research and higher education pathways.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item fade-in delay-4">
+            <!-- Added another FAQ -->
+            <div class="faq-question" role="button" aria-expanded="false">
+              <h4>What is the student-faculty ratio?</h4>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <div class="faq-answer" role="region">
+              <p>
+                We maintain a healthy student-faculty ratio, typically around
+                15:1 for core CSE courses. This ensures personalized attention,
+                effective mentoring, and ample opportunities for students to
+                interact with professors during lectures, labs, and project
+                work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta section" id="cta-section"> <!-- Added 'section' class and specific ID -->
-        <div class="container">
-            <h3 class="fade-in">Ready to Build Your Future in Tech?</h3>
-            <p class="fade-in delay-1">
-                Join Sri Sri University's BTech in Computer Science Engineering program and become a part of the next generation
-                of innovators, problem-solvers, and technology leaders shaping our world.
-            </p>
-            <!-- Make sure this link points to the actual application page -->
-            <a href="/apply" class="apply-now scale-in delay-2">Apply Now </a>
-        </div>
+    <section class="cta section" id="cta-section">
+      <!-- Added 'section' class and specific ID -->
+      <div class="container">
+        <h3 class="fade-in">Ready to Build Your Future in Tech?</h3>
+        <p class="fade-in delay-1">
+          Join Sri Sri University's BTech in Computer Science Engineering
+          program and become a part of the next generation of innovators,
+          problem-solvers, and technology leaders shaping our world.
+        </p>
+        <!-- Make sure this link points to the actual application page -->
+        <a href="/apply" class="apply-now scale-in delay-2">Apply Now </a>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#overview">Program Overview</a></li>
-                        <li><a href="#curriculum">Curriculum Details</a></li>
-                        <li><a href="#faculty">Meet the Faculty</a></li>
-                        <li><a href="#facilities">Explore Facilities</a></li>
-                        <li><a href="#career">Career Prospects</a></li>
-                        <li><a href="#testimonials">Alumni Stories</a></li>
-                        <li><a href="#faq">FAQs</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Resources</h4>
-                    <ul class="footer-links">
-                        <li><a href="/admissions">Admission Guide</a></li> <!-- Example link -->
-                        <li><a href="/scholarships">Scholarships & Aid</a></li>
-                        <li><a href="/student-life">Student Handbook</a></li>
-                        <li><a href="/research">Research Opportunities</a></li>
-                        <li><a href="/campus-tour">Virtual Campus Tour</a></li>
-                         <li><a href="/contact">Contact Admissions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Contact Us</h4>
-                    <div class="footer-contact">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>123 University Avenue,<br>Tech City, TC 100001</div>
-                    </div>
-                    <div class="footer-contact">
-                        <i class="fas fa-phone-alt"></i>
-                        <div>+1 (123) 456-7890 (Admissions)</div>
-                    </div>
-                    <div class="footer-contact">
-                        <i class="fas fa-envelope"></i>
-                        <div><a href="mailto:admissions@srisriuniversity.edu.in" style="color: white; opacity: 0.8; text-decoration: none;">admissions@srisriuniversity.edu.in</a></div>
-                    </div>
-                    <div class="footer-social">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#overview">Program Overview</a></li>
+              <li><a href="#curriculum">Curriculum Details</a></li>
+              <li><a href="#faculty">Meet the Faculty</a></li>
+              <li><a href="#facilities">Explore Facilities</a></li>
+              <li><a href="#career">Career Prospects</a></li>
+              <li><a href="#testimonials">Alumni Stories</a></li>
+              <li><a href="#faq">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Resources</h4>
+            <ul class="footer-links">
+              <li><a href="/admissions">Admission Guide</a></li>
+              <!-- Example link -->
+              <li><a href="/scholarships">Scholarships & Aid</a></li>
+              <li><a href="/student-life">Student Handbook</a></li>
+              <li><a href="/research">Research Opportunities</a></li>
+              <li><a href="/campus-tour">Virtual Campus Tour</a></li>
+              <li><a href="/contact">Contact Admissions</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact Us</h4>
+            <div class="footer-contact">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>123 University Avenue,<br />Tech City, TC 100001</div>
             </div>
-            <div class="footer-bottom">
-                <p>© 2025 UniTech University. All Rights Reserved. | <a href="/privacy" style="color: white; opacity: 0.8;">Privacy Policy</a></p>
+            <div class="footer-contact">
+              <i class="fas fa-phone-alt"></i>
+              <div>+1 (123) 456-7890 (Admissions)</div>
             </div>
+            <div class="footer-contact">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <a
+                  href="mailto:admissions@srisriuniversity.edu.in"
+                  style="color: white; opacity: 0.8; text-decoration: none"
+                  >admissions@srisriuniversity.edu.in</a
+                >
+              </div>
+            </div>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>
+            © 2025 UniTech University. All Rights Reserved. |
+            <a href="/privacy" style="color: white; opacity: 0.8"
+              >Privacy Policy</a
+            >
+          </p>
+        </div>
+      </div>
     </footer>
 
     <!-- JavaScript -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
